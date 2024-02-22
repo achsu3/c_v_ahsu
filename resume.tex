@@ -1,0 +1,262 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage{textcomp}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Amanda C. Hsu} % Your name
+ \address{achsu3.github.io} % Your address
+%\address{123 Pleasant Lane \\ are City, State 12345} % Your secondary addess (optional)
+%\address{847-530-7515  \\ ahsu67@gatech.edu} % Your phone number and email
+
+\begin{document}
+	
+	%----------------------------------------------------------------------------------------
+	%	EDUCATION SECTION
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Education}
+		%--copy and paste this region  if you need more--
+		{\bf Georgia Institute of Technology} \hfill {\em Expected Graduation: 2026} 
+		\\ Ph.D. in Computer Science\hfill \\
+		Advisors: Professor Paul Pearce, Professor Frank Li\\
+		\\
+		{\bf University of Illinois at Urbana-Champaign} \hfill {\em May 2021} 
+		\\ B.S. Computer Engineering, with Honors\hfill %{\em GPA: 3.52} 
+		\\ Senior Thesis: \textit{Exploring Boundaries Between Organizations via IPv4 Scan Data}
+	\end{rSection} 
+	
+	\begin{rSection}{Publications}
+		%--copy and paste this region  if you need more--
+		\begin{enumerate}
+			\item  \textbf{Amanda Hsu}, Paul Pearce, Frank Li. Characterizing Address Structure and Behavior in Active IPv6 Networks. \textit{Currently under review}
+
+			\item  \textbf{Amanda Hsu}, Frank Li, Paul Pearce, Oliver Gasser. A First Look At NAT64 Deployment In-The-Wild. Passive and Active Measurement Conference (PAM) 2024 \textit{to appear}
+			
+			\item  \textbf{Amanda Hsu}, Frank Li, Paul Pearce. Fiat Lux: Illuminating IPv6 Apportionment with Different Datasets. 2023 ACM SIGMETRICS.
+			
+			\item  Mohammad A. Noureddine, Ahmed M. Fawaz, \textbf{Amanda Hsu}, Cody Guldner, Sameer Vijay, Tamer Başar, William H. Sanders. Revisiting Client Puzzles for State Exhaustion Attacks Resilience. 2019 49th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN).
+			
+			\item Mohammad A. Noureddine, \textbf{Amanda Hsu}, Matthew Caesar, Fadi A. Zaraket, William H. Sanders, P4 AIG: Circuit-Level Verification of P4 Programs. 2019 49th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN).
+			
+		\end{enumerate}
+		
+		%--copy and paste this region  if you need more--
+	\end{rSection}
+	%----------------------------------------------------------------------------------------
+	%	EXPERIENCE SECTION
+	%----------------------------------------------------------------------------------------
+	\begin{rSection}{Research Experience}
+		
+		{\bf Measuring Semantic Embeddings IPv6 Networks} \hfill{\em October 2022 - Present}\\
+		{\em Georgia Institute of Technology}\\
+		{Advisors: Professor Paul Pearce, Professor Frank Li}
+		\begin{itemize}
+			\item Characterized IPv6 networks according to addressing patterns with respect to responsiveness to different ports, protocols, and application-level analysis
+			\item Findings include naming conventions embedded in IPv6 addresses that result in non-hierarchical patterns
+		\end{itemize}
+		
+		{\bf Measuring IPv6 Transition Mechanisms}\hfill{\em July 2023 - November 2023}\\
+		{\em Max Planck Institute for Informatics}\\
+		{Advisor: Dr. Oliver Gasser}
+		\begin{itemize}
+			\item Measured and characterized transition technologies between IPv4 and IPv6 networks
+			\item Findings include quantifying NAT64 deployment, the correctness of NAT64 configuration, and assessing the security of such infrastructure.
+		\end{itemize}
+		
+		{\bf IPv6 Perspectives from Various Datasets} \hfill{\em August 2021 - October 2022}\\
+		{\em Georgia Institute of Technology}\\
+		{Advisors: Professor Paul Pearce, Professor Frank Li}
+		\begin{itemize}
+			\item Characterized IPv6 usage according to various metrics by comparing relevant datasets
+			\item Datasets analyzed include: WHOIS records from Regional Internet Registries, routing data from Route Views and RIPE RIS, active IPv6 hitlists
+			\item Developed new methodology for analyzing IPv6 apportionment
+		\end{itemize}
+		
+		{\bf Distinguishing Organizations with IPv4 Scan Data} \hfill{\em July 2020 - May 2021}\\
+		{\em University of Illinois at Urbana-Champaign}\\
+		{Advisors: Professor Matthew Caesar}
+		\begin{itemize}
+			\item Analyzde Censys scanning data and WHOIS records for correlations between organizations and their IPv4 addresses
+			% \item Specifically focus on trends across different types of organizations
+		\end{itemize}
+		
+		% {\bf Aggregating Internet Data} \hfill{\em July 2020 - May 2021}\\
+		% {\em University of Illinois at Urbana-Champaign}\\
+		% {Advisor: Professor Matthew Caesar}
+		% \begin{itemize}
+			%     \item Synchronize various internet data sources to a searchable data structure with to deploy a toolkit usable to other researchers and engineers
+			%     \item Sources include Route Views, CAIDA topologies, WHOIS data, and Shodan scanning data
+			% \end{itemize}
+		
+		{\bf Circuit-Level Verification of P4 Programs} \hfill{\em January 2019 - May 2021}\\
+		{\em University of Illinois at Urbana-Champaign}\\
+		{Advisors: Professor William H. Sanders, Professor Matthew Caesar}
+		\begin{itemize}
+			\item Modeled data-plane programs as sequential circuits to be verified using hardware techniques including bounded model-checking
+			\item Implemented with P4 language
+		\end{itemize}
+		
+		{\bf Client Puzzles for State Exhaustion Attacks Resilience} \hfill{\em August 2018 - December 2018}
+		{\em University of Illinois at Urbana-Champaign}\\
+		{Advisor: Professor William H. Sanders}
+		\begin{itemize}
+			\item Evaluated client puzzles as a defense against Distributed Denial of Service (DDoS) attacks
+			\item Implemented method of priority queuing requests determined by client puzzles in the TCP stack of the Linux Kernel
+		\end{itemize}
+		
+	\end{rSection}
+	% \vspace{20mm}
+	%--------------------------------------------------------------------------------
+	%    PROJECTS
+	%-----------------------------------------------------------------------------------------------
+	\begin{rSection}{Awards and Scholarships} 
+		\textbf{•} {Community Engagement Award, \textit{School of Computer Science, Georgia Institute of Technology}} \hfill {\em 2023}
+		\vspace{3mm}\\
+		\textbf{•} {Graduate Research Fellowship Program (GRFP), \textit{National Science Foundation (NSF)}} \hfill {\em 2022}
+		\vspace{3mm}\\
+		\textbf{•} {Herbert P. Haley Fellowship, \textit{Georgia Institute of Technology}} \hfill {\em 2022}
+		\vspace{3mm}\\
+		\textbf{•} {President's Fellow, \textit{Georgia Institute of Technology}} \hfill {\em 2021}
+		\vspace{3mm}\\
+		\textbf{•} {Knights of St. Patrick Award, \textit{University of Illinois at Urbana-Champaign}} \hfill {\em 2021}
+		\vspace{3mm}\\
+		\textbf{•} {PricewaterhouseCoopers Grace Hopper Scholar} \hfill {\em 2018}
+		\vspace{3mm}\\
+		\textbf{•} {North Shore Community Service Award for Extra Effort} \hfill {\em 2017}
+		
+		\textbf{Travel Grants}
+		\begin{itemize}
+			\item ACM Internet Measurement Conference (IMC) 2023
+			\item ACM SIGMETRICS Conference 2023
+			\item ACM Internet Measurement Conference (IMC) 2022
+		\end{itemize}
+		
+		
+	\end{rSection}
+	%--------------------------------------------------------------------------------
+	%    ACTIVITIES
+	%-----------------------------------------------------------------------------------------------
+	\begin{rSection}{Professional Service}
+		\textbf{•} Lead Student Organizer, ACM SIGCOMM 2021
+		\begin{itemize}
+			\item Presented Student Welcome Session for all students attending SIGCOMM 2021
+			\item Collaborated with professionals in the SIGCOMM community to compile content relevant to students attending academic conferences
+		\end{itemize}
+		\textbf{•} Student Program Committee Volunteer, ACM SIGCOMM 2021
+		\begin{itemize}
+			\item Assisted in technical logistics of the 2-day-long review of paper submissions to SIGCOMM 2021
+%			\item Ensured that no committee members with conflicts were present during paper reviews
+		\end{itemize}
+		
+		\textbf{•} Reviewer, USENIX NSDI 2021
+		
+		\textbf{•} Student Organizer, ACM SIGCOMM 2020
+		
+		\textbf{•} Reviewer, ACM CCS 2020
+		
+	\end{rSection}
+
+
+\begin{rSection}{Teaching}
+	{\emph{Teaching Assistant} \bf CS8803 - Securing Internet Infrastructure} \hfill{\em January 2023 - May 2023}
+	\vspace{-2mm}
+	\begin{itemize}
+		\item Instructor: Professor Cecilia Testart
+	\end{itemize}
+	% {\bf CUBE Consulting} \hfill{\em Jan. 2019 - May 2020}
+	% \vspace{-2mm}
+	% \begin{itemize}
+		%     \item Consultant (2019-20) %%%%%
+		
+		% \end{itemize}
+\end{rSection}
+	\begin{rSection}{\bf Leadership and Extracurricular Experiences}
+	\textbf{•} Founding Co-Organizer, Georgia Tech Networks Research Group \hfill{\em August 2022 - May 2023}
+	\begin{itemize}
+		\item Co-founded an interdisciplinary group of students and faculty in networks research
+		\item Fostered social and professional connections between researchers at Georgia Tech
+	\end{itemize}
+	
+	{\bf Society of Women Engineers, UIUC} \hfill{\em August 2017 - May 2021}
+	\vspace{-2mm}
+	\begin{itemize}
+		\item President (2020-21)
+		\item Treasurer (2019-20)%%%%%%
+		% \item Webmaster (2018-19) %%%%
+		% \item SWE 5k Chair (2017-18) %%%%%
+	\end{itemize}
+	% {\bf CUBE Consulting} \hfill{\em Jan. 2019 - May 2020}
+	% \vspace{-2mm}
+	% \begin{itemize}
+		%     \item Consultant (2019-20) %%%%%
+		
+		% \end{itemize}
+\end{rSection}
+	%----------------------------------------------------------------------------------------
+	%	INDUSTRY SECTION
+	%----------------------------------------------------------------------------------------
+	\begin{rSection}{Industry Experience}
+		{\emph{Research Intern} \bf Censys} \hfill{\em May 2021 - August 2021}
+		\vspace{-2mm}
+		\begin{itemize}
+			\item Designed and implemented methods of HTTP scanning to attribute domains, IP addresses, and certificates to organizations
+		\end{itemize}
+		{\emph{Software Engineering Intern} \bf Censys} \hfill{\em May 2020 - August 2020}
+		\vspace{-2mm}
+		\begin{itemize}
+			\item Improved attribution system that utilizes Internet-wide scan data to associate assets including hosts, certificates, and domains, to customers
+			\item Contributions include API development in Go and Python as well as database management
+		\end{itemize}
+		{\emph{Non-Volatile Memory Firmware Validation Intern} \bf Intel Co.} \hfill{\em May 2019 - August 2019}
+		\vspace{-2mm}
+		\begin{itemize}
+			\item Developed Python scripts to collect data to standardize test system setup, including hardware and software specifications
+			\item Reduced false-negatives on firmware validation tests
+		\end{itemize}
+		{\emph{Analyst Intern, Independent Contractor} \bf Bellwether Analytics} \hfill{\em June 2018 - March 2019}
+		\begin{itemize}
+%			\item Implemented small-scale data analysis for over 10,000 pharmaceutical records
+			\item Built applications to create precise market landscapes which were used to advice R$\&$D departments of various pharmaceutical companies
+%			\item Wrote JavaScript programs to collect and analyze data from specific public databases
+%			\item Built GUI to make data analytics user-friendly
+%			
+		\end{itemize}
+		
+	\end{rSection}
+	
+	% \begin{rSection}{Conferences}
+		% \textbf{•} WE20 SWE International Conference Attendee (2019), Anaheim, CA
+		
+		% \textbf{•} WE19 SWE International Conference Attendee (2019), Anaheim, CA
+		
+		% \textbf{•} WE18 SWE International Conference Attendee (2018), Minneapolis, MN
+		
+		
+		% %--copy and paste this region  if you need more--
+		% \end{rSection}
+	%----------------------------------------------------------------------------------------
+	%	SKILLS SECTION
+	%----------------------------------------------------------------------------------------
+	
+	
+	\begin{rSection}{Skills} 
+		{C, C++, Python, Javascript, Assembly Language (x86)} 
+	\end{rSection}
+	
+	
+\end{document}----------------------------
+
