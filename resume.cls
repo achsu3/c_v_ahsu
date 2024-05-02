@@ -67,7 +67,9 @@
 % \printname is used to print the name as a page header
 \def \printname {
 	\begingroup
-	\hfil{\MakeUppercase{\namesize\bf \@name}}\hfil
+%	\hfil{\MakeUppercase{\namesize\textbf \@name}}\hfil
+	\hfil{\MakeUppercase{\namesize \@name}}\hfil
+%	\MakeUppercase{\textbf{#1}}
 	\nameskip\break
 	\endgroup
 }
@@ -95,7 +97,8 @@
 % Defines the rSection environment for the large sections within the CV
 \newenvironment{rSection}[1]{ % 1 input argument - section name
 	\sectionskip
-	\MakeUppercase{\bf #1} % Section title
+%	\MakeUppercase{\textbf #1} % Section title
+	\MakeUppercase{#1}
 	\sectionlineskip
 	\hrule % Horizontal line
 	\begin{list}{}{ % List for each individual item in the section
